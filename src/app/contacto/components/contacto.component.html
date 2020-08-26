@@ -1,0 +1,22 @@
+<div>
+  <img src="assets/images/historiaFondo.png" alt="Logo" class="imagen1">
+  <img src="assets/images/historiaFondo.png" alt="Logo" class="imagen2">
+  <img src="assets/images/historiaFondo.png" alt="Logo" class="imagen3">
+    <form class="contacto-form">
+        <mat-form-field class="contacto-nombre">
+          <mat-label>Nombre</mat-label>
+          <input matInput placeholder="Nombre ó Apodo" value="">
+        </mat-form-field>
+      <br>
+        <mat-form-field class="contacto-mail">
+            <mat-label>Mail</mat-label>
+            <input matInput placeholder="ejemplo@loquesea.com" [formControl]='email' required>
+            <mat-error *ngIf='email.invalid'>{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+      <br>
+        <mat-form-field class="contacto-comentario">
+          <mat-label>¿En qué te podemos ayudar?</mat-label>
+          <textarea matInput placeholder="Contanos..." cdkTextareaAutosize></textarea>
+        </mat-form-field>
+      </form>
+</div>

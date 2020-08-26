@@ -1,0 +1,5 @@
+<app-banner></app-banner>
+
+<div *ngFor="let productos of piezas">
+    {{ productos.title }}
+    <img [src]="productos.image" alt="">

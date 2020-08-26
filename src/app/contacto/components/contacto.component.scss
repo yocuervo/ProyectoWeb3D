@@ -1,0 +1,44 @@
+.contacto-form {
+   display: flexbox;
+   margin-left: 2%;
+}
+
+.contacto-nombre {
+    padding: 1%;
+}
+
+.contacto-mail {
+    padding: 1%;
+}
+
+.contacto-comentario {
+    padding: 1%;
+    width: 60%;
+}
+
+.imagen1 {
+    height: 65%;
+    position: absolute;
+    display: block;
+    margin-top: 4%;
+    margin-left: 45%;
+    transform: rotate(-25deg);
+}
+
+.imagen2 {
+    height: 45%;
+    position: absolute;
+    display: block;
+    margin-top: 12%;
+    margin-left: 22%;
+    transform: rotate(15deg);
+}
+
+.imagen3 {
+    height: 25%;
+    position: absolute;
+    display: block;
+    margin-top: 18%;
+    margin-left: 8%;
+    transform: rotate(10deg);
+}
