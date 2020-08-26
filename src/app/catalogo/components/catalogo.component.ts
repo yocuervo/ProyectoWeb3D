@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Productos } from './../catalogo.model';
-import Swiper, { Navigation } from 'swiper';
+import Swiper from 'swiper';
 
 @Component({
   selector: 'app-catalogo',
