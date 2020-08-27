@@ -1,5 +1,6 @@
 <app-banner></app-banner>
 
-<div *ngFor="let productos of piezas">
+<div *ngFor="let productos of piezas" class="contenedorImagenes">
     {{ productos.title }}
     <img [src]="productos.image" alt="">
+</div>
