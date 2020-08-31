@@ -4,3 +4,9 @@
     {{ productos.title }}
     <img [src]="productos.image" alt="">
 </div>
+
+<div class="galeriaImagenes">
+    <h1 class="titulo">Piezas impresas en PLA</h1>
+    <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery">
+    </ngx-gallery>
+</div>

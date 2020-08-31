@@ -8,3 +8,23 @@ img {
     margin: 1rem auto;
     width:100%;
 }
+
+.ngx-gallery { 
+    display: inline-block;
+    margin: 5%;
+    border-color: black;
+}
+
+.galeriaImagenes {
+    margin: 2%;
+    text-align: center;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.titulo {
+    font-family: 'Trebuchet MS';
+    font-size: 50px;
+    margin-top: 3%;
+}

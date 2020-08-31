@@ -9,6 +9,9 @@ import { SharedModule } from './../shared/shared.module';
 
 import { BannerComponent } from './banner/banner.component';
 
+import { HttpClientModule} from '@angular/common/http';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+
 
 @NgModule({
     declarations: [
@@ -18,7 +21,9 @@ import { BannerComponent } from './banner/banner.component';
     imports: [
         CommonModule,
         SharedModule,
-        CatalogoRoutingModule
+        CatalogoRoutingModule,
+        NgxGalleryModule,
+        HttpClientModule
     ]
 })
 
